@@ -1,0 +1,410 @@
+.my-background {
+    
+    background-color: rgba(14, 117, 145, 0.4);
+    color: transparent;
+    position: relative;
+    bottom:112px;
+    height: 60px;
+    z-index: 1;
+}
+
+.amni-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.amni {
+    display: flex;
+    position: relative;
+    bottom: 85px;
+    background-color: rgba(3, 95, 140,0.8);
+    color: rgba( 255,255,255,0.9);
+    width: 35vw;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    height: 50px;
+}
+
+
+section .the-container {
+    position: relative;
+    bottom: 43px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+section .my-boxes {
+    display: grid;
+   grid-template-columns: repeat(2, 340px);
+   grid-auto-rows: 240px;
+
+}
+
+.my-boxes p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+
+section .my-boxes div {
+    display: flex;    
+   justify-content: center;
+   align-items: center;
+   margin: 7px;
+}
+
+.my-boxes .my-box-1 {
+    background: linear-gradient(
+        to right,
+        rgba(14, 117, 145, 0.3),
+        rgba(14, 117, 145, 0.3)
+    ),
+    url("images/my pic.jpg") center
+    ;
+    background-size: cover;
+}
+
+.my-boxes .my-box-2 {
+    background: linear-gradient(
+        to right,
+        rgba(14, 117, 145, 0.3),
+        rgba(14, 117, 145, 0.3)
+    ),
+    url("images/paris.jpg") center
+    ;
+    background-size: cover;
+}
+
+
+.my-boxes .my-box-3 {
+    background: linear-gradient(
+        to right,
+        rgba(14, 117, 145, 0.3),
+        rgba(14, 117, 145, 0.3)
+        ),
+        url("images/my code.png") center
+        ;
+        background-size: cover;
+    }
+    
+    
+    .my-boxes .my-box-4 {
+        background: linear-gradient(
+            to right,
+            rgba(14, 117, 145, 0.3),
+            rgba(14, 117, 145, 0.3)
+        ),
+        url("images/my city.jpg.") center
+        ;
+        background-size: cover;
+    }
+
+
+    
+.my-box-1:hover{
+    background: url("images/my pic.jpg") center
+        ;
+        background-size: cover;
+        color: red;
+
+}
+
+
+ 
+    
+.my-box-2:hover{
+    background: url("images/paris.jpg") center
+    ;
+    background-size: cover;
+    color: red;
+
+}
+    
+.my-box-3:hover{
+    background: url("images/my code.png") center
+    ;
+    background-size: cover;
+    color: red;
+
+}
+    
+.my-box-4:hover{
+    background: url("images/my city.jpg") center
+    ;
+    background-size: cover;
+    color: red;
+
+}
+
+
+.myhr  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3px;
+    text-align: center;
+}
+
+
+#myhrtop, #myhrbottom {    
+    border: none;
+    height: 3px;
+    width: 830px;
+    text-align: center;
+    background-color:rgba(3, 95, 140,0.8) ;
+}
+
+
+#myhrtop {
+    width: 780px;
+    margin-left: 30px;
+}
+
+
+#myhrbottom {
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+
+.the-container::after {
+    position: absolute;
+    content:   "";
+    background-color: rgba(3, 95, 140,0.8);
+    width: 3px;
+    height: 410px;
+    margin-left:720px;
+    margin-bottom: 112px;
+}
+
+
+.the-container::before {
+    content:   "";
+    background-color:rgba(3, 95, 140,0.8);
+    position: absolute;
+    width: 3px;
+    height: 410px;
+    margin-right:720px;
+    margin-bottom: -54px;
+
+}
+
+
+
+.the-container2 {
+    width: 72%;
+}
+
+
+.the-container2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+
+.the-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 150px;
+}
+
+
+.the-cont2-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/2;
+    padding: 110px 0;
+    width: 100%;
+}
+
+
+#the-cont2-box {
+    color: transparent;
+    background-color:rgb(180, 180, 180);
+    height: 280px;
+    width: 187px;
+    margin-bottom:60px;
+    margin-left: 20px;
+    margin-right: 3.5vw  ;
+
+}
+
+.the-cont2-box::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(3, 95, 140,0.8);
+    height: 120px;
+    width: 3px;
+    margin-right:222px ;
+    margin-top: 155px;
+}
+
+
+.the-cont2-box::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(3, 95, 140,0.8);
+    height: 3.5px;
+    width: 150px;
+    margin-right:100px ;
+    margin-top: 230px;
+}
+
+
+.the-cont2-text {
+    margin-left: 100px;
+    grid-column: 2/-1;
+    margin-left: 10px;
+    font-size: 15px;
+} 
+
+
+.the-container2-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 250px 0;
+}
+
+
+.the-title {
+    position: absolute;
+    margin-bottom: 250px;
+    margin-right: 39%;
+    width:100px
+}
+
+#the-cont2-text {
+    width: 100%;
+    line-height:1;
+}
+
+.my-btn {
+    background-color: rgba(3, 95, 140,0.8);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    position: absolute;
+    margin-top:300px;
+    margin-right: 300px;
+    width: 15%;
+    padding: 5px 0;
+}
+
+
+.my-btn a {
+    padding: 10px 30px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.my-btn a:hover {
+    background-color: rgba(3, 95, 140,0.8);
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.7);
+
+
+
+}
+
+
+@media (max-width:1050px) {
+
+    
+    #the-cont2-text {
+        width: 100%;
+        position: relative;
+        line-height:1;
+       }
+ 
+    
+
+    .the-container2 {
+        width: 100%;
+    }
+
+
+    
+.the-title {
+    position: absolute;
+    margin-bottom: 230px;
+    margin-right: 45%;
+    width:100px
+}
+
+
+}
+
+@media (max-width:800px) {
+
+    section .my-boxes div {
+       padding: 50px 0;
+   }
+
+   .myhr  {
+       display: none;
+       justify-content: center;
+       align-items: center;
+       height: 3px;
+       text-align: center;
+   }
+
+   
+   section .my-boxes {
+       display: grid;
+       grid-template-columns:  500px;
+       grid-auto-rows: 300px;
+
+}
+
+    .the-container::before, .the-container::after {
+    display: none;
+    }
+
+    
+    .the-container2 {
+        display: flex;
+        flex-direction:column-reverse;
+    }
+
+    #the-cont2-text {
+        margin: 0 100px;
+    }
+
+    .the-title, .my-btn {
+        display: none;
+    }
+    
+    
+     #the-cont2-text::before{
+         content: "O Nas";
+         position: relative;
+        color: black;
+        top: -40px;
+         font-size: 20px;
+        position: absolute;
+        margin-right: 170px;
+        width: 150px;
+        padding: 5px 0;
+    } 
+
+    
+.the-container2-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+    margin-bottom: 0;
+    }
+
+}
